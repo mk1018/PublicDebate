@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/topics', 'TopicController@index')->name('topics');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
