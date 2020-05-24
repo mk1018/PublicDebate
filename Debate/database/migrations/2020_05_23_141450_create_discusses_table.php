@@ -17,6 +17,7 @@ class CreateDiscussesTable extends Migration
             $table->bigIncrements('id');
             $table->string('topic_no');
             $table->string('discuss_id');
+            $table->string('faction');
             $table->text('text');
             $table->timestamps();
         });
