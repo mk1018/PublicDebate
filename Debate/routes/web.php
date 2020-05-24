@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/topics', 'TopicController@index')->name('topics');
+Route::get('/discuss', 'DiscussController@index')->name('discuss');
 
 Auth::routes();
 

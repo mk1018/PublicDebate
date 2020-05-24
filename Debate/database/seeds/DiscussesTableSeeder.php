@@ -15,9 +15,16 @@ class DiscussesTableSeeder extends Seeder
         DB::table('discusses')->delete();
         $item_seeds = [
             [
-                'topic_id'   => 'A-1',
+                'topic_no'   => 'A-1',
                 'discuss_id' => 'A-1-1',
-                'text'       => 'お前らぶったおす',
+                'text'       => 'テストだよー',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime()
+            ],
+            [
+                'topic_no'   => 'A-1',
+                'discuss_id' => 'A-1-2',
+                'text'       => 'テストだよー２',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
             ],
