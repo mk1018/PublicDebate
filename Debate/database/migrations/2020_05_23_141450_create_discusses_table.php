@@ -15,7 +15,7 @@ class CreateDiscussesTable extends Migration
     {
         Schema::create('discusses', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('topic_id');
+            $table->string('topic_no');
             $table->string('discuss_id');
             $table->text('text');
             $table->timestamps();
