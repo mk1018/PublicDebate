@@ -28,6 +28,34 @@ class DiscussesTableSeeder extends Seeder
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
             ],
+            [
+                'topic_no'   => 'A-1',
+                'discuss_id' => 'A-1-3',
+                'text'       => 'テストだよー２',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime()
+            ],
+            [
+                'topic_no'   => 'A-1',
+                'discuss_id' => 'A-1-4',
+                'text'       => 'テストだよー２',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime()
+            ],
+            [
+                'topic_no'   => 'A-1',
+                'discuss_id' => 'A-1-5',
+                'text'       => 'テストだよー２',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime()
+            ],
+            [
+                'topic_no'   => 'A-2',
+                'discuss_id' => 'A-2-1',
+                'text'       => 'テストだよー２',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime()
+            ],
         ];
 
         foreach($item_seeds as $item) {
