@@ -15,10 +15,9 @@ class DiscussController extends Controller
     public function index(Request $request)
     {
 
-        $discussion = Discuss::select('*')
-        ->where('topic_no', $request->get('topic_no'))
-        ->get();
+        $discussion = Discuss::where('topic_no', $request->get('topic_no'))->get();
         return view('discussionBoard', ['discussion' => $discussion]);
+
     }
 
     /**
