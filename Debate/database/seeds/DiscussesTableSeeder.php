@@ -17,6 +17,7 @@ class DiscussesTableSeeder extends Seeder
             [
                 'topic_no'   => 'A-1',
                 'discuss_id' => 'A-1-1',
+                'faction'    => 'agree',
                 'text'       => 'テストだよー',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
@@ -24,6 +25,7 @@ class DiscussesTableSeeder extends Seeder
             [
                 'topic_no'   => 'A-1',
                 'discuss_id' => 'A-1-2',
+                'faction'    => 'opposition',
                 'text'       => 'テストだよー２',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
@@ -31,6 +33,7 @@ class DiscussesTableSeeder extends Seeder
             [
                 'topic_no'   => 'A-1',
                 'discuss_id' => 'A-1-3',
+                'faction'    => 'opposition',
                 'text'       => 'テストだよー２',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
@@ -38,6 +41,7 @@ class DiscussesTableSeeder extends Seeder
             [
                 'topic_no'   => 'A-1',
                 'discuss_id' => 'A-1-4',
+                'faction'    => 'agree',
                 'text'       => 'テストだよー２',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
@@ -45,6 +49,7 @@ class DiscussesTableSeeder extends Seeder
             [
                 'topic_no'   => 'A-1',
                 'discuss_id' => 'A-1-5',
+                'faction'    => 'opposition',
                 'text'       => 'テストだよー２',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()
@@ -52,6 +57,7 @@ class DiscussesTableSeeder extends Seeder
             [
                 'topic_no'   => 'A-2',
                 'discuss_id' => 'A-2-1',
+                'faction'    => 'agree',
                 'text'       => 'テストだよー２',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime()

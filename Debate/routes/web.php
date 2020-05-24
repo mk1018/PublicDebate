@@ -11,10 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::get('/', 'TopicController@index')->name('topics');
 Route::get('/topics', 'TopicController@index')->name('topics');
 Route::get('/discuss', 'DiscussController@index')->name('discuss');
 
